@@ -26,6 +26,7 @@ public class RomanNumeral {
         // Making the map immutable using Collections.unmodifiableMap and assigning it to 'map'.
         map = Collections.unmodifiableMap(tempMap);
     }
+    
     // Method to convert a Roman numeral to an integer.
     public int romanToInt(String s) {
         // Initializing the converted number as 0.
